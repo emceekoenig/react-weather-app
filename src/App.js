@@ -7,11 +7,11 @@ export default function App() {
       <h1>Weather App</h1>
       <footer>
         This project was coded by{" "}
-        <a href="https://chelsea-koenig.netlify.app/" target="_blank">
+        <a href="https://chelsea-koenig.netlify.app/" target="_blank" rel="noreferrer">
           Chelsea Koenig
         </a>{" "}
         and is{" "}
-        <a href="https://sunny-cactus-8b8fbe.netlify.app/" target="_blank">
+        <a href="https://sunny-cactus-8b8fbe.netlify.app/" target="_blank" rel="noreferrer">
           open-sourced on GitHub
         </a>
         .
