@@ -4,7 +4,8 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { hover } from "@testing-library/user-event/dist/hover";
+
+//import { hover } from "@testing-library/user-event/dist/hover";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
