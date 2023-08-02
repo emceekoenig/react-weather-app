@@ -1,0 +1,14 @@
+.WeatherForecast {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.WeatherForecast canvas {
+  float: none;
+  margin: 5px 0;
+}
+
+.WeatherForecast-temperature-min {
+  opacity: 0.8;
+  margin-left: 5px;
+}
