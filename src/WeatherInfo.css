@@ -15,11 +15,16 @@
 .WeatherInfo .icon {
   float: left;
   position: relative;
-  left: 18px;
+  left: 45px;
 }
 
 @media (max-width: 777px) {
   .icon {
     display: none;
+  }
+
+  .WeatherInfo .vr {
+    margin-top: 10px;
+    height: 95px;
   }
 }

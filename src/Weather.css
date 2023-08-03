@@ -25,11 +25,17 @@
   width: fit-content;
 }
 
+.col-4 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .Weather h1 {
   display: block;
   font-size: 24px;
-  font-weight: 100;
-  line-height: 29px;
+  font-weight: 500;
+  padding-top: 12px;
+  padding-bottom: 15px;
 }
 
 .Weather ul {
@@ -45,10 +51,10 @@
 }
 
 .Weather .temperature {
-  font-size: 64px;
+  font-size: 50px;
   font-weight: 400;
   line-height: 64px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 /* .Weather .unit {
@@ -71,9 +77,16 @@
 
   .Weather h1 {
     font-size: 20px;
+    padding-bottom: 20px;
   }
 
   .Weather form {
-    margin: 0 auto;
+    font-size: 12px;
+    width: fit-content;
+  }
+
+  .Weather .btn-light {
+    font-size: 14px;
+    width: fit-content;
   }
 }

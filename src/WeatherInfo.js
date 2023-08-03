@@ -7,7 +7,7 @@ import "./WeatherInfo.css";
 export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
-      <div className="row mt-3">
+      <div className="row">
         <div className="col-1"></div>
 
         <div className="col-4">
@@ -21,7 +21,7 @@ export default function WeatherInfo(props) {
               />
             </div>
 
-            <div className="float-left">
+            <div className="float-left text-nowrap">
               <WeatherTemperature fahrenheit={props.data.temperature} />
               <ul>
                 <li>Humidity: {props.data.humidity}%</li>
@@ -31,7 +31,7 @@ export default function WeatherInfo(props) {
           </div>
         </div>
 
-        <div className="col-2 text-center">
+        <div className="col-2 text-center p-0">
           <div className="vr"></div>
         </div>
 
