@@ -6,6 +6,7 @@
 .WeatherForecast canvas {
   float: none;
   margin: 5px 0;
+  width: 30px;
 }
 
 .WeatherForecast-temperature-min {

@@ -1,0 +1,10 @@
+.superscript {
+  font-size: 16px;
+  vertical-align: super;
+}
+
+@media (max-width: 500px) {
+  .WeatherTemperature span {
+    font-size: 24px;
+  }
+}

@@ -1,1 +1,25 @@
+.WeatherInfo ul {
+  text-align: end;
+}
 
+.WeatherInfo h1 {
+  text-align: end;
+}
+
+.WeatherInfo .vr {
+  text-align: center;
+  margin-bottom: 5px;
+  height: 125px;
+  width: 2px;
+}
+.WeatherInfo .icon {
+  float: left;
+  position: relative;
+  left: 18px;
+}
+
+@media (max-width: 777px) {
+  .icon {
+    display: none;
+  }
+}

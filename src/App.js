@@ -8,7 +8,7 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="New York" />
 
-        <footer className="text-center">
+        <footer className="text-center mt-3">
           This project was coded by{" "}
           <a
             href="https://chelsea-koenig.netlify.app/"
