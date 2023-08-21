@@ -19,7 +19,7 @@ export default function App() {
           </a>{" "}
           and is{" "}
           <a
-            href="https://sunny-cactus-8b8fbe.netlify.app/"
+            href="https://github.com/emceekoenig/react-weather-app"
             target="_blank"
             rel="noreferrer"
           >
